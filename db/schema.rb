@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# frozen_string_literal: true
+
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
 # This file is auto-generated from the current state of the database. Instead
 # of editing this file, please use the migrations feature of Active Record to
 # incrementally modify your database, and then regenerate this schema definition.
@@ -10,6 +15,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_11_12_152512) do
 
   create_table "articles", force: :cascade do |t|
@@ -60,4 +66,55 @@ ActiveRecord::Schema.define(version: 2020_11_12_152512) do
   add_foreign_key "comments", "articles"
   add_foreign_key "taggings", "articles"
   add_foreign_key "taggings", "tags"
+=======
+ActiveRecord::Schema.define(version: 20_201_112_152_512) do
+  create_table 'articles', force: :cascade do |t|
+    t.string 'title'
+    t.text 'body'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.string 'image_file_name'
+    t.string 'image_content_type'
+    t.integer 'image_file_size'
+    t.datetime 'image_updated_at'
+  end
+
+  create_table 'authors', force: :cascade do |t|
+    t.string 'username', null: false
+    t.string 'email', null: false
+    t.string 'crypted_password'
+    t.string 'salt'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['email'], name: 'index_authors_on_email', unique: true
+  end
+
+  create_table 'comments', force: :cascade do |t|
+    t.string 'author_name'
+    t.text 'body'
+    t.integer 'article_id', null: false
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['article_id'], name: 'index_comments_on_article_id'
+  end
+
+  create_table 'taggings', force: :cascade do |t|
+    t.integer 'tag_id', null: false
+    t.integer 'article_id', null: false
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+    t.index ['article_id'], name: 'index_taggings_on_article_id'
+    t.index ['tag_id'], name: 'index_taggings_on_tag_id'
+  end
+
+  create_table 'tags', force: :cascade do |t|
+    t.string 'name'
+    t.datetime 'created_at', precision: 6, null: false
+    t.datetime 'updated_at', precision: 6, null: false
+  end
+
+  add_foreign_key 'comments', 'articles'
+  add_foreign_key 'taggings', 'articles'
+  add_foreign_key 'taggings', 'tags'
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
 end

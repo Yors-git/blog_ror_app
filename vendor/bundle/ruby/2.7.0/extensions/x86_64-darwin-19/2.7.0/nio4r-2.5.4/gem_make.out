@@ -1,5 +1,9 @@
 current directory: /Users/yvtb/Documents/Projects/Microverse/Rails-projects/blog_ror_app/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
+<<<<<<< HEAD
 /Users/yvtb/.rbenv/versions/2.7.2/bin/ruby -I /Users/yvtb/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201112-97626-xwjn6n.rb extconf.rb
+=======
+/Users/yvtb/.rbenv/versions/2.7.2/bin/ruby -I /Users/yvtb/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201112-69277-qz9qhf.rb extconf.rb
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for sys/select.h... yes
@@ -99,4 +103,8 @@ linking shared-object nio4r_ext.bundle
 
 current directory: /Users/yvtb/Documents/Projects/Microverse/Rails-projects/blog_ror_app/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.4/ext/nio4r
 make "DESTDIR=" install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20201112-97626-1h78bf5
+=======
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20201112-69277-112h8n8
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
