@@ -1,24 +1,47 @@
-# README
+# Build A Blog Website with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> The aim of this project is to learn and get comfortale with Ruby on Rails by building a simple blog website that used all CRUD methods using  [the Jumpstart Lab’s Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) 
 
-Things you may want to cover:
+## Project screenshot
+<img alt="Demonstration" src="blogger.png"/>
 
-* Ruby version
 
-* System dependencies
+## Project specifications
+1. Do the Jumpstart Lab’s Blogger Tutorial sections I0 through I4.
+2. Pay attention to any error messages. it’s helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can’t figure out what caused it).
+3. deploy your app to Heroku!
 
-* Configuration
+## 🔨 Built in
 
-* Database creation
+- Ruby On Rails
 
-* Database initialization
+## 🚀 Our Project
 
-* How to run the test suite
+Our project can be found at 
+## Live Demo
 
-* Services (job queues, cache servers, search engines, etc.)
+- run rspec ./spec/enum_spec.rb
 
-* Deployment instructions
+## 👨🏽‍💻 👨🏿‍💻 Creators
 
-* ...
+👤 **Author1**
+
+- Github: [Jorge Torres](https://github.com/Yors-git)
+
+👤 **Author2**
+
+- Github: [Gilbert Gotora](https://github.com/ggotora)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Yors-git/blog_ror_app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed.
