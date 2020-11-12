@@ -26,17 +26,17 @@ Our project can be found at
 
 👤 **Author1**
 
-- Github: [@](https://github.com/lucianosarno)
+- Github: [Jorge Torres](https://github.com/Yors-git)
 
 👤 **Author2**
 
-- Github: [@ggotora](https://github.com/ggotora)
+- Github: [Gilbert Gotora](https://github.com/ggotora)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/lucianosarno/enumerable_methods/issues/2).
+Feel free to check the [issues page](https://github.com/Yors-git/blog_ror_app/issues).
 
 ## Show your support
 
