@@ -1,5 +1,9 @@
 current directory: /Users/yvtb/Documents/Projects/Microverse/Rails-projects/blog_ror_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+<<<<<<< HEAD
+/Users/yvtb/.rbenv/versions/2.7.2/bin/ruby -I /Users/yvtb/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201112-97626-1rbvj2c.rb extconf.rb
+=======
 /Users/yvtb/.rbenv/versions/2.7.2/bin/ruby -I /Users/yvtb/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20201112-69277-14ft7x9.rb extconf.rb
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
 creating Makefile
 
 current directory: /Users/yvtb/Documents/Projects/Microverse/Rails-projects/blog_ror_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
@@ -12,4 +16,8 @@ linking shared-object bootsnap/bootsnap.bundle
 
 current directory: /Users/yvtb/Documents/Projects/Microverse/Rails-projects/blog_ror_app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
 make "DESTDIR=" install
+<<<<<<< HEAD
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20201112-97626-fo7jvi/bootsnap
+=======
 /usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20201112-69277-1v0rw3t/bootsnap
+>>>>>>> c769bb47b3256eb6853d0a87f4d398afef4ea7b8
