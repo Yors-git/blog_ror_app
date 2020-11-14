@@ -27,6 +27,7 @@ Our project can be found at
 👤 **Author1**
 
 - Github: [Jorge Torres](https://github.com/Yors-git)
+- Linkedin: [Jorge Torres](https://www.linkedin.com/in/jtbribiesca/)
 
 👤 **Author2**
 
